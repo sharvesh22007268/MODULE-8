@@ -20,8 +20,17 @@ To write a Python program that takes a list of scores from participants and find
 
 ## 💻 PROGRAM:
 
-ADD CODE HERE
+```
+n = int(input())
+scores = list(map(int, input().split()))
+unique_scores = list(set(scores))
+unique_scores.sort()
+print(unique_scores[-2])
+```
 
 ## OUTPUT
+<img width="1255" height="695" alt="image" src="https://github.com/user-attachments/assets/9edb5d41-8401-4b98-afe3-86a0362fd542" />
+
 
 ## RESULT
+Thus, the program is executed successfully
